@@ -24,6 +24,7 @@ My brazil_experience gem is set up to start with a welcome and ask you to make a
 
 ![](https://2static1.fjcdn.com/comments/Only+7+lucky+prick+_2ac3821b7573b798a602bbac63ddf86a.png)
 
+
 Overall, the process of creating the CLI Data Gem was very interesting and definitely challenging. I did enjoy it and learned a lot from it. I had so many new errors, I now know how to fix errors I knew nothing about before! Lol. But, in all honesty, the biggest learned lessons were: commit as often as you can (I lost a page of code and that was not fun to replicate), don't get hung up on having to use a specific structure because as your data changes and your program grows - so will your code, and have fun.  It is not the end of the world if the code does not work.  You found one way it doesn't, there are a million other ways it can.
 
 ☆ Emilia ☆
