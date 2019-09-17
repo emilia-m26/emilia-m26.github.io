@@ -1,10 +1,11 @@
 ---
 layout: post
-title:      "The Brazil Experience  [CLI Data Gem Portfolio Project]"
-date:       2019-09-17 02:59:44 +0000
+title:      "The Brazil Experience  "
+date:       2019-09-16 22:59:45 -0400
 permalink:  the_brazil_experience_cli_data_gem_portfolio_project
 ---
 
+# [CLI Data Gem Portfolio Project]
 
 ![](https://farm1.static.flickr.com/210/512930220_74e275a28d.jpg)
 
