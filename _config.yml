@@ -1,11 +1,11 @@
 # Site settings
 author: Emilia M
-title: The Brazil Experience
+title: The Flatiron Experience
 header-img: img/home-bg.png
 email: emilia.mena26@gmail.com
 copyright_name: Emilia M
 description: > # this means to ignore newlines until "baseurl:"
-  CLI Data Gem Portfolio Project - brazil_experience
+  Emilia's Flatiron Experience thru Software Engineering Online 
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  emilia-m26
