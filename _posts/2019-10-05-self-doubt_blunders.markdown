@@ -5,6 +5,7 @@ date:       2019-10-05 18:05:39 -0400
 permalink:  self-doubt_blunders
 ---
 
+# “The master is a beginner that never gave up.”*― Avina Celeste*
 I was a complete newbie to coding.  My interest in the programming world stems from years ago, somehow always being involved in ERP implementations and helping business analysts understand our busines processes, while I had to learn basics of programs so that both sides (IT and business) could come to a common ground, and function cohesively.  With repeated exposure to programming, testing, and implementations; I decided it was in my best interest to learn more about programming and also venture into a career change. *[Enter the Flatiron Journey]*
 
 Today makes 7 weeks of being part of the Flatiron FT - Online Software Engineering program.  Next week we go into *#ProjectMode* for the Sinatra App project (portfolio project #2) and I am still as lost as when I first started!?!?  ... *Or Am I?*
