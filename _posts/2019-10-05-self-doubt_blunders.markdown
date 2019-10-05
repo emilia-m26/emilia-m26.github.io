@@ -7,8 +7,7 @@ permalink:  self-doubt_blunders
 
 I was a complete newbie to coding.  My interest in the programming world stems from years ago, somehow always being involved in ERP implementations and helping business analysts understand our busines processes, while I had to learn basics of programs so that both sides (IT and business) could come to a common ground, and function cohesively.  With repeated exposure to programming, testing, and implementations; I decided it was in my best interest to learn more about programming and also venture into a career change. *[Enter the Flatiron Journey]*
 
-Today makes 7 weeks of being part of the Flatiron FT - Online Software Engineering program.  Next week we go into *#ProjectMode* for the Sinatra App project (portfolio project #2) and I am still as lost as when I first started!?!? 
-   ... *Or Am I?*
+Today makes 7 weeks of being part of the Flatiron FT - Online Software Engineering program.  Next week we go into *#ProjectMode* for the Sinatra App project (portfolio project #2) and I am still as lost as when I first started!?!?  ... *Or Am I?*
 	 
 What I am starting to come to terms with is that most of the times, I am not as lost as I actually feel I am.  See... what happens is, that pesky Self-Doubt kicks in and stirs up the emotions! This causes a disconnect between what is actually happening, and what I perceive to be happening.
 
