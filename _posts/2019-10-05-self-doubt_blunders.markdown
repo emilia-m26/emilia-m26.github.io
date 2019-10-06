@@ -31,7 +31,7 @@ This is my reminder(to myself and to you), give yourself the chance to showcase 
 * Pair with classmates and take turns explaining what's going on, this helps you and the classmate at the same time.  
 * Get on the study group sessions and speak up.  Get used to making mistakes in front of others, many times they need the same questions answered.
 * Say it ...  I don't understand!  Let those words become completely okay to say.  See, these words do not make us less than, they allow us to open ourselves to learning opportunities.
-* Work through the coding challenges your instructor gives you and have it ready for the next 1:1.  Show them what you did and be completely open to their feedback.  Maybe you don't get it all right, but you 70% of it.  That's awesome!  It's progress and they can help you along the other 30% of the way.
+* Work through the coding challenges your instructor gives you and have it ready for the next 1:1.  Show them what you did and be completely open to their feedback.  Maybe you don't get it all right, but you get 70% of it.  That's awesome!  It's progress and they can help you along the other 30% of the way.*(Alex definitely clarified some doubts in Associations when I put myself out there to complete the coding challenge on my own and show him what I was able to complete - Thanks Alex!)*
 
 And overall, remember -- We are Learning.  If we already knew the information, we wouldn't be here at Flatiron School.  We are beginners.  As difficult as it is, embrace the beginner status and the blank canvas we have been given.  We will create amazing opportunities for ourselves by pushing through the comfort zones.
 
