@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Sinatra Portfolio Project"
-date:       2019-10-16 00:14:05 +0000
+date:       2019-10-15 20:14:06 -0400
 permalink:  sinatra_portfolio_project
 ---
 
@@ -30,4 +30,5 @@ The inspiring part of this process is the shift in mentality.  Wait... What?  Di
 
 
 ☆ Emilia ☆
-*My daily reminder(in case you need a push) -- This is challening, not impossible.*
+
+*My daily reminder(in case you need a push) -- This is challenging, not impossible.*
