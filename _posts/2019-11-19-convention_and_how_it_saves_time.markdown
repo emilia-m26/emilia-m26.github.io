@@ -1,7 +1,7 @@
 ---
 layout: post
-title:      "Convention and How It Saves Time"
-date:       2019-11-19 22:46:57 +0000
+title:      "Convention Saves Time"
+date:       2019-11-19 17:46:58 -0500
 permalink:  convention_and_how_it_saves_time
 ---
 
