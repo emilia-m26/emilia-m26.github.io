@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "Debugging with Lucky"
-date:       2020-01-03 15:11:07 +0000
+date:       2020-01-03 10:11:08 -0500
 permalink:  debugging_with_lucky
 ---
 
