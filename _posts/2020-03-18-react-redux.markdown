@@ -23,5 +23,12 @@ After several attempts at Googling for help and not being successful.  I decided
 
 At this point I felt  stuck and reached out for help.  Luckily, my help was intrigued by the issue and was able to get me through it. (Thank you!) We installed another browser to see if we received similar errors, Googled both errors and attempted to fix each error through Video-React and also using iFrame.  We were unable to do so.
 
-What was happening was that when the servers were communicating, it was not liking the cross-server comminication.  We checked the CORS set up and it was correct.  It confused us both on what could fix the situation, until he was able to decipher what was truly going on - the headers were not being set to allow the cross-site communication. After testing various solutions found through stackoverflow and other resources, there was one more thing to try before deciding to download the videos... use a different npm package for displaying the video.  And so I installed ReactPlayer and used the documentation to set up video display and Voila! It worked.  No more cross-site issues, no more X-Frame-Options error, and a perfectly displayed video and previously planned.
+What was happening was that when the servers were communicating, it was not liking the cross-server comminication.  We checked the CORS set up and it was correct.  It confused us both on what could fix the situation, until he was able to decipher what was truly going on - the headers were not being set to allow the cross-site communication. 
+
+After testing various solutions found through stackoverflow and other resources, there was one more thing to try before deciding to download the videos... use a different npm package for displaying the video.  And so I installed ReactPlayer and used the documentation to set up video display and *Voila! *It worked.  No more cross-site issues, no more X-Frame-Options error, and a perfectly displayed video and previously planned.
+
+
+
+
+☆ Emilia ☆
 
