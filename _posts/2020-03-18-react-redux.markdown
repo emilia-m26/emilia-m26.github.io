@@ -1,12 +1,11 @@
 ---
 layout: post
-title:      "React-Redux"
-date:       2020-03-18 04:02:53 +0000
+title:      "React-Redux and Displaying Videos"
+date:       2020-03-18 00:02:54 -0400
 permalink:  react-redux
 ---
 
 
-This is going to be a blog about my final project. I am currenty editing the blog so I may publish with correct information.
-This is going to be a blog about my final project. I am currenty editing the blog so I may publish with correct information. 
-This is going to be a blog about my final project. I am currenty editing the blog so I may publish with correct information. 
-This is going to be a blog about my final project. I am currenty editing the blog so I may publish with correct information. 
+While setting up the plans for my final project, I decided I wanted to display videos.  My project is called "explore."  The idea is to give a place where you can explore different countries and their cultures, specifically their language, food, art, and dance.  
+
+
