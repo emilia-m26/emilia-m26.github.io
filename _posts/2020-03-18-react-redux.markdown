@@ -6,6 +6,8 @@ permalink:  react-redux
 ---
 
 
-While setting up the plans for my final project, I decided I wanted to display videos.  My project is called "explore."  The idea is to give a place where you can explore different countries and their cultures, specifically their language, food, art, and dance.  
+While setting up the plans for my final project, I decided I wanted to display videos.  My project is called "explore."  The idea is to give a place where you can explore different countries and their cultures, specifically their language, food, art, and dance.  I wanted to use videos to display this information.
+
+
 
 
