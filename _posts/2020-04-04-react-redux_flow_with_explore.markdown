@@ -25,7 +25,9 @@ So, what exactly happens when the user clicks on the "Explore" (localhost:3000/c
 ![](https://i.ibb.co/W0XTKNx/Countries-Container-component.png)
 
 
-One of the first things that happens when our React app mounts, in essence also mounting this specific CountriesContainer component, is to connect to the store.  We see this happening in line 40 of this component.  In this method, connect( ) we are connecting CountriesContainer to the Redux store.  The next method called in this component is componentDidMount( ). This method signals that the component and its sub-components have mounted properly and is available for use.  This specific method is perfect for fetch( ) calls.  The componentDidMount method is calling our action creator through this.props.fetchCountries( ) on line 9.  This line leads us to our fetchCountries action (below).
+One of the first things that happens when our React app mounts, in essence also mounting this specific CountriesContainer component, is to connect to the store.  We see this happening in line 40 of this component.  In this method, connect( ) we are connecting CountriesContainer to the Redux store.  
+
+The next method called in this component is componentDidMount( ). This method signals that the component and its sub-components have mounted properly and is available for use.  This specific method is perfect for fetch( ) calls.  The componentDidMount method is calling our action creator through this.props.fetchCountries( ) on line 9. This is possible because in our connect( ) we have our mapDispatchToProps (or specifically {fetchCountries}) pass in as an argument. This line leads us to our fetchCountries action (below).
 
 ![](https://i.ibb.co/kx1fJQW/fetch-Countries-action.png)
 
@@ -35,3 +37,5 @@ The action creator taps in to the API and returns our data.  This is also where 
 We then move from our action to our reducer (seen below).
 
 ![](https://i.ibb.co/TRswXN2/country-Reducer.png)
+
+
