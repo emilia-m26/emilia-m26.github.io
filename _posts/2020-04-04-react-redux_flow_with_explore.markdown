@@ -18,5 +18,5 @@ What we are going to focus on with this blog is the flow of data as it works its
 
 ![](https://i.ibb.co/7jGGbTs/Screenshot-explore-countries-page.png)
 
-So, what exactly happens when the user click on the "Explore" link? 
+So, what exactly happens when the user click on the "Explore" (localhost:3000/countries) link? 
 
