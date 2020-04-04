@@ -27,15 +27,26 @@ So, what exactly happens when the user clicks on the "Explore" (localhost:3000/c
 
 One of the first things that happens when our React app mounts, in essence also mounting this specific CountriesContainer component, is to connect to the store.  We see this happening in line 40 of this component.  In this method, connect( ) we are connecting CountriesContainer to the Redux store.  
 
-The next method called in this component is componentDidMount( ). This method signals that the component and its sub-components have mounted properly and is available for use.  This specific method is perfect for fetch( ) calls.  The componentDidMount method is calling our action creator through this.props.fetchCountries( ) on line 9. This is possible because in our connect( ) we have our mapDispatchToProps (or specifically {fetchCountries}) pass in as an argument. This line leads us to our fetchCountries action (below).
+The next method called in this component is componentDidMount( ). This method signals that the component and its sub-components have mounted properly and is available for use.  This specific method is perfect for fetch( ) calls.  The componentDidMount method is calling our action creator through this.props.fetchCountries( ) on line 9. This is possible because in our connect( ) we have our mapDispatchToProps (or specifically {fetchCountries}) passed in as an argument. This line leads us to our fetchCountries action (below).
 
 ![](https://i.ibb.co/kx1fJQW/fetch-Countries-action.png)
 
 
-The action creator taps in to the API and returns our data.  This is also where we are able to see the beauty of Redux-Thunk in full effect.  Redux-Thunk allows us to return a function inside our action creator and receives dispatch as an argument (as seen in lines 2-8 above).  In doing this, it solves the issue of a fetch method not completing and data attempting to display before the fetch is completed.
+The action creator taps in to the API and returns our data.  This is also where we are able to see the beauty of Redux-Thunk in full effect.  Redux-Thunk allows us to return a function inside our action creator and receives dispatch as an argument (as seen in lines 2-8 above).  In doing this, it solves the issue of a an action attempting to display data before the fetch is completed.
 
-We then move from our action to our reducer (seen below).
+We then move from our action to our reducer (seen below) once the action is dispatched.
 
 ![](https://i.ibb.co/TRswXN2/country-Reducer.png)
+
+The purpose of the reducer is to return the updated state.  So in summary our flow is Action -> Reducer -> Updated State. The reducer (countryReducer.js in this app) is passed as an argument to the store (line 12 in image below).  The store is accessible to the entire app by wrapping the App component with the Provider component.  The Provider component has store as a prop and is thus passed down to any component in the app that we connect to the store via the connect( ) method.
+
+![](https://i.ibb.co/rH2wb7T/store.png)
+
+
+State is mapped to the CountriesContainer component through our connect method, which takes mapStateToProps( ) as an argument. The mapStateToProps( ) is also where we define which slice of state needed for the specific component that is connected to the store.  In the CountriesContainer component, we are wanting to access state.countries which is defined to be the value of countries.  The countries information is passed down from CountriesContainer to its child components (Countries component and Country component) as a prop (seen on line 24 of the CountriesContainer component) making it possible for the child components to update and display the data received from the fetch call.
+
+
+
+
 
 
