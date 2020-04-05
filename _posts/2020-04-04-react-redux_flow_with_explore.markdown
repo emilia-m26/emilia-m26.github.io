@@ -19,13 +19,13 @@ What we are going to focus on with this blog is the flow of data as it works its
 ![](https://i.ibb.co/7jGGbTs/Screenshot-explore-countries-page.png)
 
 
-So, what exactly happens when the user clicks on the "Explore" (localhost:3000/countries) link? When the user interacts with our app and clicks on the "Explore" link, they are triggering the flow of data. They are interacting with the CountriesContainer component (below).  
+When the user interacts with our app, they are triggering the flow of data. They are interacting with the CountriesContainer component (below).  
+
+One of the first things that happens when our React app mounts, in essence also mounting this specific CountriesContainer component, is to connect to the store.  We see this happening in line 40 of this component.  In this method, connect( ) we are connecting the CountriesContainer component to the Redux store.  
 
 
 ![](https://i.ibb.co/W0XTKNx/Countries-Container-component.png)
 
-
-One of the first things that happens when our React app mounts, in essence also mounting this specific CountriesContainer component, is to connect to the store.  We see this happening in line 40 of this component.  In this method, connect( ) we are connecting the CountriesContainer component to the Redux store.  
 
 The next method called in this component is componentDidMount( ). This method signals that the component and its children components have mounted properly and are available for use.  This specific method is perfect for fetch( ) calls.  The componentDidMount method is calling our action creator through this.props.fetchCountries( ) on line 9. This is possible because in our connect( ) we have our mapDispatchToProps (or specifically {fetchCountries}) passed in as an argument. This line leads us to the fetchCountries action (below).
 
